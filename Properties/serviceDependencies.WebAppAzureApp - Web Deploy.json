@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/WebAppAzureApp/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsMyConnectionStrings_DA040680EF",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/cloudtechnologieslab1/databases/DmytroPM",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:MyConnectionStrings"
+    }
+  }
+}
